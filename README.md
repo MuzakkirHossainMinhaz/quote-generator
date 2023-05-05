@@ -42,7 +42,7 @@ To run this application locally, follow these steps:
 This application uses the [Quotable](https://github.com/lukePeavey/quotable) to generate random quotes.
 
 ## Credits
-This project was created by [Muzakkir Hossain Minhaz]().
+This project was created by [Muzakkir Hossain Minhaz](https://github.com/MuzakkirHossainMinhaz).
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE.md](/LICENSE.md) file for more details.
