@@ -1,10 +1,10 @@
 # Random Quote Generator
 
-This is a web application built using ReactJS (a popular JavaScript library for building user interfaces) that generates a random quote every time the user clicks the "Generate New Quote" button. The application fetches an API to get a new quote.
+This is a web application built using ReactJS (a popular JavaScript library for building user interfaces) that generates a random quote every time the user clicks the "Generate New Quote" button. The application fetches an API to get a new quote. [preview👁️‍🗨️](https://random-quote-generator-v1.netlify.app/)
 
 ## Features
 - Generates a new random quote every time the "Generate New Quote" button is clicked.
-- Displays the author of the quote.
+- Displays the author name of the quote.
 - Responsive design that works on desktop and mobile devices.
 
 ## Technologies Used
