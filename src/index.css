@@ -3,38 +3,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 body {
-  background-color: rgb(202, 246, 246);
+  background-color: rgb(112, 189, 189);
 }
+
 .app {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 250px;
   text-align: center;
+  width: 100vw;
+  height: 100vh;
 }
+
 .app .title {
+  width: 75%;
   font-family: 'Rubik Dirt', cursive;
-  color: rgb(2, 2, 71);
+  font-size: 40px;
+  color: rgb(8, 8, 85);
 }
+
 .card {
   width: 75%;
-  margin-top: 25px;
-  border-radius: 20px;
+  margin-top: 35px;
+  border-radius: 1rem !important;
+  padding: 1.75rem 1rem 1rem;
 }
+
 .card .quote {
   font-family: 'Sofia', cursive;
 }
-.margin-top {
-  margin-top: 8px !important;
-}
+
 .card .author {
   font-family: 'Poiret One', cursive;
   font-weight: 600;
+  margin-top: 1rem;
+}
+
+.card .btn {
+  margin-top: 1rem;
+}
+
+.card .btn:hover {
+  background-color: #3f51b5;
+  color: white;
 }
 
 @media screen and (min-width: 1040px) {
-  .card {
+  .title, .card {
     width: 50%;
   }
 }

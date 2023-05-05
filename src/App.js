@@ -4,17 +4,15 @@ import getQuotes from './getQuotes';
 import { useState } from 'react';
 
 function App() {
-
   const [quote, setQuote] = useState("You really can change the world if you care enough.");
   const [author, setAuthor] = useState("Marian Wright Edelman");
 
   const handleClick = () => {
     getQuotes().then((data) => {
-      setAuthor(data.author);
       setQuote(data.content);
+      setAuthor(data.author);
     })
   }
-
 
   return (
     <div className="app">
@@ -22,13 +20,13 @@ function App() {
       <Card className='card'>
         <CardContent>
           <Typography variant='h4' className='quote'>{quote}</Typography>
-          <Typography className='margin-top author' color="textSecondary">"{author}"</Typography>
+          <Typography className='author' color="textSecondary">"{author}"</Typography>
           <hr />
-          <Button className='margin-top' color='primary' variant='outlined' onClick={() => handleClick()}>Click for New Quotes</Button>
+          <Button className='btn' color='primary' variant='outlined' onClick={() => handleClick()}>Generate New Quote</Button>
         </CardContent>
       </Card>
     </div>
   );
-}
+};
 
 export default App;
